@@ -1,0 +1,142 @@
+body {
+    font-family: sans-serif;
+    margin: auto;
+    width: 1024px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+
+
+header {
+    margin-top: 20px;
+    border: 2px solid black;
+    background-color: #cf5e5e;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+header>h1 {
+    float: left;
+}
+
+header>nav>ol {
+    list-style-type: none;
+}
+
+.column {
+    margin-left: 40px;
+    background-color: rgba(98, 98, 212, 0.753);
+    float: left;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid #050505
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+div,
+aside {
+    margin-top: 5px;
+    background-color: rgb(222, 224, 97);
+    height: 505px;
+    border-radius: 5px;
+    border: 2px outset black;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+}
+
+
+
+div {
+    width: 700px;
+    float: left;
+}
+
+.block3, .block2 {
+    background-color: rgb(105, 83, 202);
+    width: 220px;
+    border: 2px solid black;
+    margin-left: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    float: left;
+
+}
+
+.block1 {
+    background-color: aqua;
+    width: auto;
+    height: auto;
+    overflow: auto;
+    border: 2px solid black;
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+
+article {
+    background-color: rgb(255, 102, 0);
+    width: 300px;
+    height: 320px;
+    overflow: auto;
+    border: 2px solid black;
+    margin: 20px;
+    margin-top: -0px;
+    float: left;
+    border-radius: 5px;
+}
+
+article {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+
+
+aside {
+    background-color: rgb(171, 235, 76);
+    width: 321px;
+    float: right;
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.ole {
+    background-color: rgb(189, 76, 199);
+    width: 150px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+
+
+footer {
+    margin-block-end: 10px;
+    width: auto;
+    height: 50px;
+    margin-top: 515px;
+    background-color: rgb(132, 95, 218);
+    border: 2px solid black;
+    padding: 10px;
+    font-size: 1.2em;
+    color: #333;
+    font-family: Comic Sans MS;
+    border-radius: 5px;
+    text-align: center;
+
+}
